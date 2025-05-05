@@ -42,4 +42,29 @@
 ## 15)
 ## Fon thread bo‘lib, asosiy threadlar tugasa, u ham avtomatik tugaydi (masalan: garbage collector).
 ## 16)
-## 
+## JAR (Java ARchive) — bu Java dasturlari uchun arxivlangan fayl bo‘lib, .class fayllar, resurslar (rasmlar, matnlar) va META-INF metadata faylini o‘z ichiga oladi.
+## jar fayl — Java dasturini tarqatish yoki ishga tushirish uchun qulay shakldir.
+## 17)
+## Maven — Java loyihalarini boshqarish va build qilish vositasi.
+## U quyidagilarni avtomatlashtiradi:
+## Kutubxonalarni yuklash (pom.xml fayl orqali)
+## Dastur tuzish (compile), test qilish, JAR yaratish
+## Loyihani tuzilmasini standartlashtirish
+## Maven'ning asosiy fayli: pom.xml (dependencies, plugins va h.k. shu yerga yoziladi)
+## 18)
+## Behavior parameterization — bu metodga xatti-harakatni (behavior) parametr sifatida uzatish.
+## Java 8 dan boshlab lambda expressions orqali amalga oshiriladi.
+## 19)
+## Turi	Tavsif
+## Imperative	Qanday bajarilishini yozasiz (step-by-step)
+## Declarative	Nimani bajarish kerakligini yozasiz (nima emas, qanday)
+## 20)
+## ✅ Stream:
+## Java 8 da kiritilgan
+## Data oqimi (ma’lumotlar ustida zanjirsimon amallar bajarish)
+## Lazily evaluated (kerak bo‘lmaguncha hisoblanmaydi)
+## Immutable (o‘zgartirilmaydi)
+## ✅ Collection:
+## Ma’lumotlar to‘plami (List, Set, Map va h.k.)
+## Ma’lumotlar saqlanadi va har doim mavjud
+## Mutlaq (hammasi xotirada)
